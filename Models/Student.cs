@@ -12,7 +12,7 @@ namespace EntityFrameworkDemo.Models
         // Primary key - Entity Framework automatically recognizes properties named 'Id' or 'StudentId' as primary keys
         // The [Key] attribute makes this explicit
         [Key]
-        public int Id { get; set; }
+        public int Id { get; set; }   
 
         // Required field - Entity Framework will create this as NOT NULL in the database
         [Required]
